@@ -1,0 +1,14 @@
+.place {
+  margin: 0 0 80px;
+  display: grid;
+  grid-template-columns: .95fr 1fr;
+  grid-template-rows: min-content 1fr;
+  grid-column-gap: 40px;
+  grid-template-areas:
+    "place__title place__website"
+    "place__image place__paragraph";
+}
+
+.place:last-child {
+  margin: 0 0 92px;
+}
