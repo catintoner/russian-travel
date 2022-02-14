@@ -56,9 +56,19 @@
   }
 
   .cover {
-    width: calc(100% + 48px*2);
+    max-width: calc(100% + 48px*2);
   }
+
+  .cover__card::before {
+    max-width: calc(100% + 48px*2);
+  }
+
+  .cover__background {
+    max-width: calc(100% + 48px*2);
+  }
+
 }
+
 
 @media screen and (max-width: 1023px) {
 
@@ -89,7 +99,15 @@
   }
 
   .cover {
-    width: calc(100% + 24px*2);
+    max-width: calc(100% + 24px*2);
+  }
+
+  .cover__card::before {
+    max-width: calc(100% + 24px*2);
+  }
+
+  .cover__background {
+    max-width: calc(100% + 24px*2);
   }
 
 }
@@ -136,7 +154,15 @@
   }
 
   .cover {
-    width: calc(100% + 16px*2);
+    max-width: calc(100% + 16px*2);
+  }
+
+  .cover__card::before {
+    max-width: calc(100% + 16px*2);
+  }
+
+  .cover__background {
+    max-width: calc(100% + 16px*2);
   }
 
 }
@@ -190,10 +216,6 @@
     width: calc(100% + 16px*2);
     align-self: center;
     margin: 0 0 32px;
-  }
-
-  .cover {
-    width: calc(100% + 16px*2);
   }
 
   .cover__title {

@@ -1,5 +1,5 @@
 .cover__background {
-  width: 100%;
+  max-width: calc(100% + 100px*2);
   object-fit: cover;
   display: block;
   z-index: -3;
