@@ -55,6 +55,10 @@
     grid-column-gap: 32px;
   }
 
+  .place:last-child {
+    margin: 0 0 99px;
+  }
+
   .cover {
     max-width: calc(100% + 48px*2);
   }
@@ -100,6 +104,7 @@
 
   .cover {
     max-width: calc(100% + 24px*2);
+    margin: 0 0 88px;
   }
 
   .cover__card::before {
@@ -155,6 +160,7 @@
 
   .cover {
     max-width: calc(100% + 16px*2);
+    margin: 0 0 64px;
   }
 
   .cover__card::before {
@@ -200,6 +206,10 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 0 0 50px;
+  }
+
+  .place:last-child {
+    margin: 0 0 66px;
   }
 
   .place__title {
