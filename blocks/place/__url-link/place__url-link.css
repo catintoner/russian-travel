@@ -1,4 +1,4 @@
-.website__url-link {
+.place__url-link {
   margin: 0 0 48px;
   font-size: 18px;
   line-height: 22px;
@@ -6,7 +6,7 @@
   transition: .2s;
 }
 
-.website__url-link:hover {
+.place__url-link:hover {
   transition: .2s;
   opacity: .8;
 }

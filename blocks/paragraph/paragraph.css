@@ -1,10 +1,10 @@
-.paragraph__text {
+.paragraph {
   margin: 0 0 26px;
   font-size: 18px;
   line-height: 29px;
   font-weight: 400;
 }
 
-.paragraph__text:last-child {
+.paragraph:last-child {
   margin: 0;
 }
