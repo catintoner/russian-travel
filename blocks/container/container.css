@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  width: calc(100% - 48px*2);
+  max-width: calc(100% - 48px*2);
   font-family: 'Inter', Arial, sans-serif;
   color: #fff;
   -webkit-font-smoothing: antiliased;

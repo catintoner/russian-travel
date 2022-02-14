@@ -44,11 +44,11 @@
 @media screen and (max-width: 1279px) {
 
   .content {
-    width: 100%;
+    max-width: 100%;
   }
 
   .photo-grid {
-    width: 100%;
+    max-width: 100%;
   }
 
   .place {
@@ -63,7 +63,7 @@
 @media screen and (max-width: 1023px) {
 
   .container {
-    width: calc(100% - 24px*2);
+    max-width: calc(100% - 24px*2);
   }
 
   .lead__image {
@@ -71,7 +71,7 @@
   }
 
   .intro {
-    width: 100%;
+    max-width: 100%;
   }
 
   .place {
@@ -97,7 +97,7 @@
 @media screen and (max-width: 766px) {
 
   .container {
-    width: calc(100% - 16px*2);
+    max-width: calc(100% - 16px*2);
   }
 
   .header {
