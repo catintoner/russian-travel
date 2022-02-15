@@ -6,3 +6,11 @@
   grid-template-rows: repeat(auto-fill, minmax(213px, 1fr));
   grid-gap: 16px;
 }
+
+@media screen and (max-width: 1279px) {
+
+  .photo-grid {
+    max-width: 100%;
+  }
+
+}

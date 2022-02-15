@@ -4,3 +4,13 @@
   object-fit: contain;
   object-position: top;
 }
+
+@media screen and (max-width: 632px) {
+
+  .place__image {
+    width: calc(100% + 16px*2);
+    align-self: center;
+    margin: 0 0 32px;
+  }
+
+}

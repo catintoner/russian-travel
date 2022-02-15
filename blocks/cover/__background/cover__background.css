@@ -4,3 +4,27 @@
   display: block;
   z-index: -3;
 }
+
+@media screen and (max-width: 1279px) {
+
+  .cover__background {
+    max-width: calc(100% + 48px*2);
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+
+  .cover__background {
+    max-width: calc(100% + 24px*2);
+  }
+
+}
+
+@media screen and (max-width: 766px) {
+
+  .cover__background {
+    max-width: calc(100% + 16px*2);
+  }
+
+}

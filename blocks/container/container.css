@@ -9,3 +9,19 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
 }
+
+@media screen and (max-width: 1023px) {
+
+  .container {
+    max-width: calc(100% - 24px*2);
+  }
+
+}
+
+@media screen and (max-width: 766px) {
+
+  .container {
+    max-width: calc(100% - 16px*2);
+  }
+
+}
