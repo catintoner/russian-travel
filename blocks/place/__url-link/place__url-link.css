@@ -11,10 +11,9 @@
   opacity: .8;
 }
 
-@media screen and (max-width: 632px) {
+@media screen and (max-width: 767px) {
 
   .place__url-link {
     margin: 0 0 32px;
   }
-
 }

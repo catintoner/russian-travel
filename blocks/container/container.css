@@ -10,7 +10,14 @@
   -moz-text-size-adjust: 100%;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
+
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 1023px) {
 
   .container {
     max-width: calc(100% - 24px*2);
@@ -24,4 +31,4 @@
     max-width: calc(100% - 16px*2);
   }
 
-}
+} */
