@@ -17,7 +17,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 767px) {
 
   .footer__link {
     font-size: 24px;
@@ -28,5 +28,4 @@
   .footer__link:last-child {
     margin: 0 0 48px;
   }
-
 }
