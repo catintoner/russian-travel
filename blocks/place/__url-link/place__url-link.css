@@ -1,5 +1,6 @@
 .place__url-link {
-  margin: 0 0 48px;
+  color: white;
+  margin: 0;
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
@@ -11,9 +12,3 @@
   opacity: .8;
 }
 
-@media screen and (max-width: 767px) {
-
-  .place__url-link {
-    margin: 0 0 32px;
-  }
-}
